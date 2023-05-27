@@ -6,3 +6,4 @@ console.log("Apple")
 //git log
 console.log("1233")
 console.log("1233")
+console.log("this is new console.log");
