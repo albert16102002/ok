@@ -4,3 +4,4 @@ console.log("Apple")
 //git add ok.js
 //git commit -m "blabla"
 //git log
+console.log("1233")
