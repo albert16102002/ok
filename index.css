@@ -1,0 +1,29 @@
+.table {
+    padding: 8px;
+    text-align: left;
+    font-family: arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px double #532727
+}
+
+.tr {
+    padding: 8px;
+    border: 1.5px solid hsl(57, 90%, 60%);
+}
+
+.role:nth-child(odd) {
+    background-color: #dddddd;
+}
+
+.one {
+    width:150px;
+    background-color:yellow;
+}.two {
+    width: 150px;
+    background-color: green;
+}
+.three {
+    width: 100px;
+    background-color: red;
+}
