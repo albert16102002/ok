@@ -1,9 +1,18 @@
-console.log("Apple")
-//git init 
-//git status 
-//git add ok.js
-//git commit -m "blabla"
-//git log
-console.log("1233")
-console.log("1233")
-console.log("this is new console.log");
+//DOM(document object model) CRUD
+//C=creat
+const divElement=document.createElement("div");//creat div
+const stringElement=document.createTextNode("Welcome to Myanmar!");//write text
+divElement.appendChild(stringElement);//connet div and text
+const tagCollection= document.getElementsByTagName("body")//connet HTML body script &  but show HTMLcollections
+const bodyElement=tagCollection [0]
+bodyElement.appendChild(divElement);
+
+//R=read
+const readElement = document.getElementsByTagName("div")[0];
+console.log("What is this element?..",readElement.textContent)
+
+//U=update
+readElement.textContent="Welcome to Mandalay!"
+
+//D=delet
+readElement.remove();
