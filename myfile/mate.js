@@ -19,3 +19,24 @@ const tagCollection=document.getElementsByTagName("body");
 const bodyElement= tagCollection[0];
 
 bodyElement.appendChild(divElement);
+
+const cssStyle=document.getElementsByClassName("style")[0];
+console.log("css style of new", cssStyle.style.height)
+console.log("css style of width:", getComputedStyle(cssStyle).width)
+console.log("css style of height:", getComputedStyle(cssStyle).height)
+console.log("css style of background-colour:", getComputedStyle(cssStyle).backgroundColor)
+
+const myIdName= document.getElementById("myId");
+
+const myFunction =() => {
+    console.log("Your code is running......")
+}
+
+const myFunction2 =() => {
+    console.log("Your code is running in second interaction......")
+}
+
+//myIdName.onclick=myFunction;
+
+myIdName.addEventListener("click",myFunction)
+myIdName.addEventListener("click",myFunction2)
