@@ -6,6 +6,7 @@ const myArray=[
     "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29mZmVlfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60",
 ]
 
+
 const myId=document.getElementById("myButton");
 const myImage=document.getElementsByClassName("imgCollection")[0];
 const originImage= myImage.src;
@@ -17,7 +18,7 @@ const myFunction= ()=> {
         return;
     }
     const imageLinks = myArray[counter]
-    myImage.src=imageLinks;
+    myImage.src=imageLinks;//change image src
     counter+=1;
     console.log("Counter value is:",counter)
 }
