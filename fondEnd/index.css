@@ -1,29 +1,11 @@
-.table {
-    padding: 8px;
-    text-align: left;
-    font-family: arial, sans-serif;
-    width: 100%;
-    border-collapse: collapse;
-    border: 3px double #532727
+#myButton{
+    background-color: lightcyan;
+    border: 1.5px solid gold;
+    border-radius: 2px;
+    font-size: large;
 }
-
-.tr {
-    padding: 8px;
-    border: 1.5px solid hsl(57, 90%, 60%);
-}
-
-.role:nth-child(odd) {
-    background-color: #dddddd;
-}
-
-.one {
-    width:150px;
-    background-color:yellow;
-}.two {
-    width: 150px;
-    background-color: green;
-}
-.three {
-    width: 100px;
-    background-color: red;
+.imgCollection{
+    height: 400px;
+    display: block;
+    margin-top: 10px ;
 }
