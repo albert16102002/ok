@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    background-color: rgb(198, 215, 40);
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.children{
+    width: 250px;
+    background-color: rgb(242, 243, 243);
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+}
