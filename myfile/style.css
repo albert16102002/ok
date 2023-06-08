@@ -1,0 +1,28 @@
+body{
+    background-color: #1e4761;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.form-control{
+    max-width: 400px;
+    margin-bottom: 8px;
+}
+
+.productName {
+    user-select: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+.purchased {
+    text-decoration: line-through;
+}
