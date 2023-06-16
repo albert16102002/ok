@@ -199,11 +199,11 @@ ordered.indexOf("Mango")//Search Element
 
 //for loops
 const orderedArray=[
-    {name: "Myo Myo", emailAdress:"myomyo@gmail.com", isTeacher:true, gender:"Female" },
-    {name: "San Ei", emailAdress:"sanei@gmail.com", isSwinmer:false, gender:"Female"},
-    {name: "Han Su Ywe", emailAdress:"hansuywe@gamil.com", isSwinmer: true, gender:"Female"},
-    {name: "L San Linn Htun", emailAdress:"lsanlinnhtun@gmail.com", isDeveloper:true, gender:"Male"},
-    {name: "Indexer", emailAdress:"indexer@gmail.com", isDeveloper:true, gender: "Male"}
+    {name: "developer1", emailAdress:"myomyo@gmail.com", isTeacher:true, gender:"Female" },
+    {name: "developer2", emailAdress:"sanei@gmail.com", isSwinmer:false, gender:"Female"},
+    {name: "developer3", emailAdress:"hansuywe@gamil.com", isSwinmer: true, gender:"Female"},
+    {name: "developer4", emailAdress:"lsanlinnhtun@gmail.com", isDeveloper:true, gender:"Male"},
+    {name: "developer5", emailAdress:"indexer@gmail.com", isDeveloper:true, gender: "Male"}
 ]   
 
 const sendName=(gender)=>{
