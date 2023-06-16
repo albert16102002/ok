@@ -187,7 +187,7 @@ const ordered=[
     "Lemontea"
 ]
 ordered[2] //way of called
-ordered.push("banana")//add element(add in the last)
+ordered.push("banana")//add element(in the last)
 ordered[ordered.length-1]//get last items as array
 ordered.pop()//delet last itmes
 ordered.shift()//delet first itmes
@@ -215,16 +215,16 @@ for(let i=0; i<orderedArray.length; i++){
     sendName(customerSex);
 }
 
-for(stametn1; stament2; stament3) {
-    console.log("hello")
-}
-
 for(let i=0; i<orderedArray.length; i++) {
     console.log(orderedArray[i].emailAdress)
 }
 
-for (let i = 0; i < cities.length; i++) {
+for (let i = 0; i <cities.length; i++) {
     console.log(cities[i], i)
+}
+
+for(stametn1; stament2; stament3) {
+    console.log("hello")
 }
 
 const cities=[
@@ -546,3 +546,12 @@ for(let i=0;i<cumstomerInfo.length;i++){
 //email : cumsto3@gmail.com
 //email : cumsto4@gmail.com
 //email : cumsto5@gmail.com
+
+const exaArray=[1,2,3,4,5,6,7,8,9];
+let getNumber=0;
+for (let i=0; i<exaArray.length;i++){
+    if (exaArray[i]===9)[
+        getNumber += exaArray[i]
+    ]
+    console.log("Your code is",getNumber)
+}    

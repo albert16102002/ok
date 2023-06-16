@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+        <link rel="stylesheet" href="music.css"/>
+        <link rel="shortcut icon" href="#"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="playlistContainer"></div>
+            <audio src="" class="audioTag">
+                Your browser doesn't support the audio element!
+            </audio>
+            <div class="currentAndTotleTime">00:00 / 00:00</div>
+            <div id="progressBar">
+                <div id="progressProcess"></div>
+            </div>
+            <div class="musicPlayer">
+                <i class="fa-solid fa-backward-step controls previousButton"></i>
+                <i class="fa-solid fa-circle-play controls playButton"></i>
+                <i class="fa-solid fa-pause controls pauseButton"></i>
+                <i class="fa-solid fa-forward-step controls nextButton"></i>
+            </div>
+        </div>
+        <script src="music.js"></script>
+    </body>
+</html>
